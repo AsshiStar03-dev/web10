@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;       
+         }
+        header{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(22, 21, 21);
+            border-radius:3px ;
+            color: aliceblue;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            letter-spacing: 0%;
+            position: fixed;
+
+            
+        }
+        header h6{
+           color: aliceblue;
+            padding-left:120px ;
+            margin-top: -40px;
+            font-weight: lighter;
+        }
+        i{
+            padding-left: 900px;
+           
+        }
+        #container{
+            display: flex;
+        }
+        #pic{
+            padding-left: 200px;
+            padding-top: 80px;
+        }
+        #share{
+            color: #3C4142;
+            padding-left: 150Px;
+            padding-top: 100px;
+            font-size: 200%;
+            letter-spacing: 0cap;
+          
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button{
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 70%;
+            background-color: #4169E1;
+            border: #4169E1;
+            color: white;
+            box-shadow: 5px 5px rgb(214, 205, 205);
+           
+        }
+        #yusra{
+            font-size: 70%;
+            color: #7f7f7f;
+        }
+        #container i  {
+            padding-left: 10px;
+            padding: 0%;
+            font-size: 20px
+        }
+        #head{
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3C4142;
+        }
+        #second{
+            display: flex;
+           
+        }
+
+        #second img{
+            width: 100%;
+            height: 500px;
+
+        }
+        #second h6{
+            font-size: 20px;
+            color: #3C4142;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        #second button{
+           margin-left: 60px;
+           font-size: 20px;
+        }
+        #tail{
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3C4142;
+        }
+        #third {
+      text-align: center !important;
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #third button{
+            background-color: #000435;
+        }
+        #para{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3C4142;
+            font-size: 40px;
+        }
+        #box{
+            display: flex;
+
+        }
+        #one {
+         margin:20px;
+           
+               width: 800px;
+            height: 170px;
+            border-radius: 10px;
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-right: 2px solid yellow;
+            border-bottom:2px solid yellow ;
+            background-color: lightgray;
+            text-align: center;
+            padding-left: 10px;
+            font-size: 20px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+        }
+        #one h4{
+            color: #3C4142;
+        }
+        #two{
+            margin: 20px;
+            margin-right: 50px;
+           
+               width: 800px;
+            height: 170px;
+            border-radius: 10px;
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-left: 2px solid blue;
+            border-bottom:2px solid blue ;
+            background-color: lightgray;
+            text-align: center;
+            padding-left: 10px;
+            font-size: 20px;
+            padding-bottom:20px ;
+        }
+        #two h4{
+            color: #3C4142;
+        }
+        #fourth{
+            display: flex;
+
+        }
+        
+        #three {
+         margin:20px;
+           
+               width: 800px;
+            height: 170px;
+            border-radius: 10px;
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-top: 2px solid green;
+            border-right:2px solid green ;
+            background-color: lightgray;
+            text-align: center;
+            padding-left: 10px;
+            font-size: 20px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+        }
+        #three h4{
+            color: #3C4142;
+        }
+        
+        #four{
+            margin: 20px;
+            margin-right: 50px;
+           
+               width: 800px;
+            height: 170px;
+            border-radius: 10px;
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-left: 2px solid skyblue;
+            border-top:2px solid skyblue ;
+            background-color: lightgray;
+            text-align: center;
+            padding-left: 10px;
+            font-size: 20px;
+            padding-bottom:20px ;
+        }
+        #four h4{
+            color: #3C4142;
+        }
+       #border{
+        width: 80%;
+        height: 350px;
+        background-color: #000435;
+        border-radius: 30px;
+        border: 5px solid skyblue;
+        margin-left: 150px;
+       }
+       #radius{
+        text-align: left;
+        padding-top: 50px;
+        display: left;
+       }
+       #radius h3{
+        padding-left: 200px;
+        font-weight: bolder;
+        color: aliceblue;
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0PX;
+        
+       }
+       #radius h4{
+        float: left;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       line-break: 50px;
+       padding: 15px;
+       }
+       #radius img{
+        float: left;
+        padding-top: -300px;
+        margin-top: -125px;
+        height: 350px;
+       
+       }
+       #new{
+        text-align: center !important;
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+      
+        
+
+
+    </style>
+</head>
+<body>
+    
+    <header><h1>tappy</h1><h6>TM</h6><i class="fa-solid fa-cart-shopping"></i> </header>
+    <div id="container">
+        <div id="pic">
+            <img src="giphy.gif" alt="">
+        </div>
+
+        <div id="share"> 
+            <h1>share   tiktok <br> with just a tap</h1>
+        
+            <button> shop Now</button>
+            <br><br>
+            <h1 id="yusra">
+
+                tappy is the #1 smart business card
+                for <br>entrepreneurs and creatives.</h1>
+                <br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> 5000 + reviews
+            
+          </div>
+           
+       
+    </div>
+    <br>
+    
+    <h1 id="head">choose your tappy:</h1>
+    <br><br><br><br>
+    <div id="second">
+        <div> <img src="3.png" alt=""><br><br> <h6>Pro level networking </h6><br><br><br>
+            <button> shop Now</button></div>
+        <div>
+            <img src="5.webp" alt=""> <br><br><h6>Always there, tap to connect</h6> <br><br><br>
+            <button> shop Now</button>
+        </div>
+        <div><img src="2.webp" alt=""> <br><br><h6>Sleek, professional, custom.</h6><br><br><br>
+            <button >shop Now</button></div>
+    </div>
+    <br><br>
+    <div id="third">
+    <h1 id="tail">interested in purchasing 10 or more tappy's?</h1>
+    <br>
+    <button id="third">SHOP TAPPY FOR TEAMS</button>
+</div>
+<br><br>
+<p id="para">Connecting with tappy is absolutely effortless.</p>
+<br><br><br>
+<div id="box">
+    <div id="one"> <h3>Lightning fast</h3><br>
+
+       
+        ⚡️ 
+        <br>
+        
+       <h4> Exchange contact information in seconds with just a tap.</h4></div>
+       <div id="two">
+       <h3> No app required</h3>
+       <br>
+📲
+<br>
+<h4>
+The other person doesn't need an app or tappy.
+Your profile opens in the web browser.</h4>
+       </div>
+    </div>
+    <div id="fourth">
+       <div id="three"><h3>Works for everybody</h3>
+        <br>
+
+       <h4> Available for all. <br>
+        <br>
+        Tappy works with both iPhone and Android phones.</h4>    </div>
+        <div id="four">
+           <h3> Unlimited everything</h3> 
+           <br>
+♾️
+<br>
+<h4>
+Get all of our pro features for one low price.
+No monthly fees!</h4></div>
+    
+            
+        </div>
+        <br><br> <br>
+        <div id="border">
+            <div id="radius">
+               <h3>TRY TAPPY FOR RISK</h3>
+               <H4>💵 <br>100% no risk <br>
+                money back guarantee</H4>
+                <H4>🔐
+                    <br>
+                    Secure Checkout</H4>
+                    
+                    <h4>🤩<br>
+                        30-day no questions asked
+                        <br>
+                        refund policy</h4>
+                        <img src="7.png" alt="">
+
+            </div>
+        </div>
+        <br><br>
+       <center> <button id="new">CHOOSE YOUR TAPPY</button></center>
+    
+</body>
+</html> 
